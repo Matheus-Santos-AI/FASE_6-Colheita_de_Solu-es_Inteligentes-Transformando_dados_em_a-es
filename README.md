@@ -47,6 +47,7 @@ Toda a lógica de treinamento e teste foi centralizada no Google Colab para faci
 - [x] Análise crítica de performance, tempo de inferência e precisão.
 
 
+## Imagem gerada do modelo YOLO treinado com dataset customizavel
 ![Detecção em imagem](Imagens/chatnarin-pramnapan-hsnelnK7mt4-unsplash.jpg)
 
 ---
