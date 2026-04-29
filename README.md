@@ -59,11 +59,12 @@ Toda a lógica de treinamento e teste foi centralizada no Google Colab para faci
 ## 🛠️ Tecnologias Utilizadas
 * **Python 3.x**
 * **YOLOv5** 
-* **TensorFlow/Keras** (Para a CNN)
-* **Google Colab** (Ambiente de desenvolvimento)
-* **Make Sense IA** (Anotação de dados)
+* **TensorFlow/Keras** 
+* **Google Colab** 
+* **Make Sense IA** 
 
 ---
 
 ## 📝 Conclusões
-
+Apesar do yolo ser uma boa ferramenta seu custo computacional eventualmente não justifica sua utilização , quando usamos o yolo padrão observamos que ele não funciona para qualquer tipo de identificação , no caso do exemplo ele não reconhece um animal em expecifico como a raposa classificando como um gato ou ovelha. Já quando usamo o yolo adaptando com o treinamento expecifico usando nosso dataset , podemos observar que ele tem um bom comportamento obtendo numero satisfatorios para uma demosntração e com portencial de ajustes para melhor resultados.
+Quando treinamos uma CNN do zero utilizando a biblioteca TensorFlow obtivemos um resultado melhor com 30 epocas em relação ao resultado do yolo adaptado , e em menos tempo , enquanto o yolo demorou 36 minutos para treinar as 30 epocas com o TensorFlow demorou aproximadamente 17 minutos , um ganho de 50% no tempo de treinamento para um resultado ligeiramente melhor e com menos custo computacional.
